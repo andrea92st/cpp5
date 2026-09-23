@@ -1,5 +1,5 @@
-#include"Form.hpp"
-#include"Bureaucrat.hpp"
+#include "../inc/Form.hpp"
+#include "../inc/Bureaucrat.hpp"
 
 Form::Form(void) : _name("default"), _signed(false), _grade_sign(150), _grade_exec(150)
 {

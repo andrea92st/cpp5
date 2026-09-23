@@ -7,7 +7,8 @@ CFLAGS   = -Wall -Wextra -Werror -std=c++98
 OBJ_DIR  = obj/
 
 SRCS     =	main.cpp \
-			Bureaucrat.cpp
+			src/Bureaucrat.cpp \
+			src/Form.cpp
 
 OBJ = $(patsubst src/%.cpp, $(OBJ_DIR)%.o, $(SRCS))
 
