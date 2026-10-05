@@ -1,4 +1,4 @@
-NAME     = Bureaucrat
+NAME     = President
 
 CC       = c++
 
@@ -6,9 +6,12 @@ CFLAGS   = -Wall -Wextra -Werror -std=c++98
 
 OBJ_DIR  = obj/
 
-SRCS     =	main.cpp \
-			src/Bureaucrat.cpp \
-			src/Form.cpp
+SRCS     =		main.cpp \
+       			src/Bureaucrat.cpp \
+				src/AForm.cpp \
+    	   		src/ShrubberyCreationForm.cpp \
+    		    src/RobotomyRequestForm.cpp \
+    		    src/PresidentialPardonForm.cpp
 
 OBJ = $(patsubst src/%.cpp, $(OBJ_DIR)%.o, $(SRCS))
 

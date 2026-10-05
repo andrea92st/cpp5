@@ -30,6 +30,7 @@ clean:
  
 fclean:         clean
 		@rm -rf $(NAME)
+		@rm -f *_shrubbery
 		@echo -e "\033[1;36m======== executable removed ========\033[0m"
  
 re:             fclean all
