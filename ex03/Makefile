@@ -1,4 +1,4 @@
-NAME     = President
+NAME     = Intern
 
 CC       = c++
 
@@ -11,7 +11,8 @@ SRCS     =		main.cpp \
 				src/AForm.cpp \
     	   		src/ShrubberyCreationForm.cpp \
     		    src/RobotomyRequestForm.cpp \
-    		    src/PresidentialPardonForm.cpp
+    		    src/PresidentialPardonForm.cpp \
+    		    src/Intern.cpp
 
 OBJ = $(patsubst src/%.cpp, $(OBJ_DIR)%.o, $(SRCS))
 
